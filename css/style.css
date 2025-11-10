@@ -10,6 +10,11 @@ a {
     color: black;
 }
 
+.imgprop {
+    display: flex;
+    width: 500px;
+}
+
 .titlesize {
     font-size: 40px;
 }
@@ -97,15 +102,11 @@ a {
     justify-content: center;
 }
 
-.imgprop {
-    display: flex;
-    width: 500px;
-}
 
 .secondslidetxt {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 300px;
 }
 
 .thirdslide {
@@ -126,5 +127,35 @@ a {
 
 .fourthslide {
     display: flex;
+    margin: 80px -10px -10px -10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fourthslidetxt {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: -200px;
+}
+
+.fifthslide {
+    display: flex;
+    background-image: url(../img/wave.svg);
+    color: rgb(54, 54, 54);
+    margin: 80px -10px -10px -10px;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.fifthslidetxt {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.imgproplast {
+    display: flex;
+    width: 1000px;
 }
