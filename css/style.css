@@ -107,3 +107,24 @@ a {
     flex-direction: column;
     width: 200px;
 }
+
+.thirdslide {
+    display: flex;
+    background-image: url(../img/wave.svg);
+    background-color: lightgrey;
+    margin: 80px -10px -10px -10px;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.thirdslidetxt {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.fourthslide {
+    display: flex;
+    justify-content: center;
+}
